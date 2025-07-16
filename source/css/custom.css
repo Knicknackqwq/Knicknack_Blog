@@ -553,14 +553,16 @@ div#archive {
 
 /* 黑夜霓虹灯效果 */
 /* 日间模式不生效 */
-[data-theme="light"] #nav .site-name,#site-title,
-[data-theme="light"] #site-subtitle,
-[data-theme="light"] #post-info {
+#nav .site-name,#site-title, #post-info {
+  animation: none;
+}
+#site-subtitle{
   animation: none;
 }
 /* 夜间模式生效 */
-[data-theme="dark"] #nav .site-name,#site-title {
-  animation: light_15px 10s linear infinites;
+[data-theme="dark"] #nav .site-name,
+[data-theme="dark"] #site-title {
+  animation: light_15px 10s linear infinite;
 }
 [data-theme="dark"] #site-subtitle {
   animation: light_10px 10s linear infinite;

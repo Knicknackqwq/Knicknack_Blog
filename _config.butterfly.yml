@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo: 
+  logo: https://cloudsource.pages.dev/img/head_img/logo.svg
   display_title: true
   # Whether to fix navigation bar
   fixed: false
@@ -53,8 +53,8 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/Knicknackqwq/ || Github || '#24292e'
+  fas fa-envelope: mailto:zhwanderwonder@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -63,7 +63,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: https://cloudsource.pages.dev/img/head_img/01.png
   effect: false
 
 # Disable all banner images
@@ -213,7 +213,7 @@ toc:
   number: true
   expand: false
   # Only for post
-  style_simple: false
+  style_simple: true
   scroll_percent: true
 
 post_copyright:
@@ -298,12 +298,12 @@ aside:
     category: false
   card_author:
     enable: true
-    description:
+    description: Welcome Home "＞﹏＜"
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      icon: fa fa-home
+      text: 前往小家
+      link: https://github.com/Knicknackqwq/
   card_announcement:
     enable: true
     content: This is my Blog
@@ -1049,6 +1049,7 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/universe.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/font.css" media="defer" onload="this.media='all'">
 
 
     # - <link rel="stylesheet" href="/xxx.css">
