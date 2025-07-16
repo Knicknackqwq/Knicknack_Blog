@@ -13,7 +13,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     !=partial('includes/loading/index', {}, {cache: true})
 
     if theme.background
-      #web_bg(style=getBgPath(theme.background))
+      #web_bg(style=getBgPath(theme.background.defaultbg))
 
     !=partial('includes/sidebar', {}, {cache: true})
 
