@@ -17,17 +17,17 @@ nav:
   fixed: false
 
 menu:
-  解忧柜台: / || fas fa-home
-  八音盒: /music/ || fas fa-music
-  进货单||fas fa-list || hide:
-    标签: /tags/ || fas fa-tags
-    分类: /categories/ || fas fa-folder-open
-  杂货架: /archives/ || fas fa-archive
-  友店: /links/ || fas fa-link
-  旧时光: /old_time/ || fas fa-link
-  个人||fas fa-list || hide:
-    关于: /about/me/ || fas fa-tags
-    观星小屋: /about/galax/ || fas fa-folder-open
+  解忧柜台: / || icon-shangdian || faa-tada
+  八音盒: /music/ || icon-phonogram || faa-tada
+  进货单|| icon-qingdan || faa-tada || hide:
+    标签: /tags/ || icon-a-addtag || faa-tada
+    分类: /categories/ || icon-fenlei || faa-tada
+  杂货架: /archives/ || icon-shugui || faa-tada
+  友店: /links/ || icon-pengyouquan || faa-tada
+  旧时光: /old_time/ || icon-shijian || faa-tada
+  个人|| icon-COFFEESHOPSIGN || faa-tada || hide:
+    关于: /about/me/ || icon-shafa || faa-tada
+    观星小屋: /about/galax/ || icon-tianwenwangyuanjing || faa-tada
 
 
 # --------------------------------------
@@ -184,6 +184,7 @@ subtitle:
   sub:
     - Welcome To Knicknackの小店
     - Welcome Home "＞﹏＜"
+    - 愿此行，终抵群星ヾ(•ω•`)o
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right

@@ -12,8 +12,10 @@ nav#nav
     if theme.search.use
       #search-button
         span.site-page.social-icon.search
-          i.fas.fa-search.fa-fw
-          span= ' ' 
+          a.search.faa-parent.animated-hover(title="检索站内任何你想要的信息")
+            svg.faa-tada.icon(style="height:28px;width:28px;fill:currentColor;position:relative;top:6px" aria-hidden="true")
+              use(xlink:href='#icon-sousuo')
+            span= ' ' 
     if theme.menu
       != partial('includes/header/menu_item', {}, {cache: true})
 
