@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Knicknackの小铺
+title: Knicknackの小店
 subtitle: ''
 description: ''
 keywords:
@@ -146,11 +146,11 @@ algolia:
 
 # Security
 encrypt: # hexo-blog-encrypt
-  abstract: 嘶，这个东东被加密了呢 ヾ(≧▽≦*)o
-  message: 客官好，这里输入密码，小店为您解密
+  silent: true
+  abstract: 客官好，没有密码进不去呢
+  message: 嘶，这个东东被加密了呢 ヾ(≧▽≦*)o
   tags:
-  - {name: tagName, password: 密码A}
-  - {name: tagName, password: 密码B}
+  - {name: private, password: zh20040424}
   theme: xray
-  wrong_pass_message: 抱歉, 这个密码看着不太对（*＾-＾*）, 请再试试
-  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容
+  wrong_pass_message: emm, 这个密码看着不太对（*＾-＾*）, 请再试试
+  wrong_hash_message: emm, 这个文章不能被校验, 不过您还是能看看解密后的内容

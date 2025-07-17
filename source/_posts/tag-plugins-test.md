@@ -1,14 +1,10 @@
 ---
 title: tag_plugins_test
 date: 2025-07-04 15:54:23
-tags: test_tag_plugins
+tags: 
+    - test_tag_plugins
+    - private
 categories: test_1
-password: 20040424
-abstract: 有东西被加密了, 请输入密码查看
-message: 不行不行的，这个房间需要密码哦
-theme: xray
-wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试
-wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容
 ---
 
 

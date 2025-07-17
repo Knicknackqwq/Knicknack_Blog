@@ -53,8 +53,9 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/Knicknackqwq/ || Github || '#24292e'
+  fab fa-github: https://github.com/Knicknackqwq/ || Github || '#4a7dbe'
   fas fa-envelope: mailto:zhwanderwonder@gmail.com || Email || '#4a7dbe'
+  fab fa-qq fa-5: /about/me/ || QQ || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -181,7 +182,8 @@ subtitle:
     - https://hitokoto.cn/
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - Welcome To Knicknackの小铺
+    - Welcome To Knicknackの小店
+    - Welcome Home "＞﹏＜"
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -301,12 +303,12 @@ aside:
     description: Welcome Home "＞﹏＜"
     button:
       enable: true
-      icon: fa fa-home
+      icon: fas fa-home
       text: 前往小家
       link: https://github.com/Knicknackqwq/
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: <center><b>--- 主域名 ---<br><a href="https://Knicknackqwq.github.io"><font color="#5ea6e5">Knicknackqwq.github.io</font></a><br>--- 备用域名 ---<br><a href="/"><font color="#5ea6e5">敬请期待</font></a></center>
   card_recent_post:
     enable: false
     # If set 0 will show all
