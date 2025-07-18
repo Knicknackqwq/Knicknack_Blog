@@ -116,9 +116,11 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    - https://cloudsource.pages.dev/img/background/01.webp
-    - https://cloudsource.pages.dev/img/background/02.webp
     - https://cloudsource.pages.dev/img/top_cover/01.webp
+    - https://cloudsource.pages.dev/img/top_cover/02.webp
+    - https://cloudsource.pages.dev/img/top_cover/03.webp
+    - https://cloudsource.pages.dev/img/top_cover/04.webp
+
 
 # Replace Broken Images
 error_img:
@@ -1059,7 +1061,7 @@ inject:
   bottom:
    #- <script src="xxxx"></script>
     # - <script async src="/js/iconfont.js"></script>
-    - <script async src="//at.alicdn.com/t/c/font_4976554_dj949ola4de.js"></script>
+    - <script async src="//at.alicdn.com/t/c/font_4976554_3s3t3ltdh1a.js"></script>
     - <script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script>
     - <canvas id="universe"></canvas>
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script>
