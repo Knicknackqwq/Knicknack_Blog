@@ -19,14 +19,14 @@ nav:
 menu:
   解忧柜台: / || icon-shangdian || faa-tada
   八音盒: /music/ || icon-phonogram || faa-tada
-  进货单|| icon-qingdan || faa-tada || hide:
-    标签: /tags/ || icon-a-addtag || faa-tada
+  进货单|| icon-dayinji || faa-tada || hide:
+    标签: /tags/ || icon-shuqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
-  杂货架: /archives/ || icon-shugui || faa-tada
-  友店: /links/ || icon-pengyouquan || faa-tada
+  杂货架: /archives/ || icon-a-2 || faa-tada
+  友店: /links/ || icon-liuyanban-copy || faa-tada
   旧时光: /old_time/ || icon-shijian || faa-tada
-  个人|| icon-COFFEESHOPSIGN || faa-tada || hide:
-    关于: /about/me/ || icon-shafa || faa-tada
+  个人|| icon-shafa || faa-tada || hide:
+    关于: /about/me/ || icon-COFFEESHOPSIGN || faa-tada
     观星小屋: /about/galax/ || icon-tianwenwangyuanjing || faa-tada
 
 
@@ -1058,7 +1058,8 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
    #- <script src="xxxx"></script>
-    - <script async src="/js/iconfont.js"></script>
+    # - <script async src="/js/iconfont.js"></script>
+    - <script async src="//at.alicdn.com/t/c/font_4976554_dj949ola4de.js"></script>
     - <script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script>
     - <canvas id="universe"></canvas>
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script>
